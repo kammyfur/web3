@@ -1,0 +1,230 @@
+@import url("fontsload.css");
+
+body {
+    margin: 0;
+}
+
+.header {
+    background: grey;
+    padding: 1px;
+    height: auto;
+}
+
+.gtranslate {
+    background-color: lightsalmon;
+    color: orangered;
+    padding: 10px;
+    text-align: center;
+    /*vertical-align: middle;*/
+    margin-top: 50vh;
+    transform: translateY(-50%);
+}
+
+.gtranslate a {
+    color: orangered;
+}
+
+.gtranslate a:hover {
+    color: saddlebrown;
+}
+
+.gtranslate a:active {
+    color: white;
+    font-style: bold;
+}
+
+.link999 {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.tableInit {
+    margin: 0;
+    width: 200px;
+}
+
+.donationsTable a {
+    color: grey;
+}
+
+.donationsTable a:hover {
+    color: black;
+    font-style: bold;
+}
+
+.donationsTable a:active {
+    color: white;
+    font-style: bold;
+}
+
+nav {
+    background: grey;
+    padding: 20px;
+    height: auto;
+    overflow: hidden;
+}
+
+menu {
+    background: lightgrey;
+    padding: 20px;
+    height: auto;
+    overflow: hidden
+}
+
+menu a {
+    color: lightcoral;
+    text-decoration: overline;
+    margin: 20px;
+}
+
+menu a:hover {
+    color: coral;
+    text-decoration: line-through;
+}
+
+menu a:active {
+    color: lightgrey;
+    text-decoration: underline;
+}
+
+nav a {
+    color: lightgreen;
+    text-decoration: overline;
+    margin: 20px;
+}
+
+nav a:hover {
+    color: green;
+    text-decoration: line-through;
+}
+
+.debugInfo {
+    background-color: black;
+    color: lightgrey;
+    margin: 50px;
+    font-family: monospace;
+}
+
+nav a:active {
+    color: lightgrey;
+    text-decoration: underline;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.main{
+    background: lightgrey;
+    padding: 20px;
+}
+
+.footer {
+    background: grey;
+    padding: 1px 20px/*10px 20px*/;
+    text-align: center;
+}
+
+.footer a {
+    color: black;
+    text-decoration: none
+}
+
+.footer a:active {
+    color: blue;
+    text-decoration: line-through;
+}
+
+.footer a:hover {
+    color: lightgrey;
+    text-decoration: underline;
+}
+
+.pagefoot {
+    overflow: hidden
+}
+
+/* header {
+    margin: 0px;
+    padding:0px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(165, 165, 165);
+    background-size: cover;
+}
+
+footer {
+    background: rgb(165, 165, 165);
+}
+
+.banner {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(228, 228, 228);
+}
+
+section {
+    padding: 20px;
+}
+
+article {
+    padding: 20px;
+}
+
+copyright {
+    text-align: center;
+} */
+
+element-mprj-products-status1 {
+    color: white;
+    background-color: green;
+}
+
+element-mprj-products-status2 {
+    color: white;
+    background-color: orange;
+}
+
+element-mprj-products-status3 {
+    color: white;
+    background-color: red;
+}
+
+element-mprj-products-status4 {
+    color: white;
+    background-color: black;
+}
+
+element-mprj-donations-emergency {
+    color: red;
+    font-style: bold;
+}
+
+element-mprj-donations-insearch {
+    color: orangered;
+    font-style: bold;
+}
+
+element-mprj-donations-normal {
+    color: black;
+    font-style: bold;
+}
